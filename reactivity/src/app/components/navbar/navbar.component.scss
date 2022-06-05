@@ -1,0 +1,16 @@
+.navigation-container{
+  height: 100px;
+  width: 100%;
+  padding-left: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-btn{
+  margin-right: 2vw;
+  cursor: pointer;
+  padding-right: 10px;
+  background-color: aquamarine;
+  height: 30px;
+}
