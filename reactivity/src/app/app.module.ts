@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './pages/about/about.component';
 import { LandingComponent } from './pages/landing/landing.component';
+import { SimpleListComponent } from './components/simple-list/simple-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     AboutComponent,
-    LandingComponent
+    LandingComponent,
+    SimpleListComponent
   ],
   imports: [
     BrowserModule,
