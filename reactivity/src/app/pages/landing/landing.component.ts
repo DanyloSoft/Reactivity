@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
+  public simpleItem = 'Simple Item';
+
   constructor() { }
 
   ngOnInit(): void {
